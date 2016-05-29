@@ -10,11 +10,9 @@ body {
 }
 
 .container {
-   position: absolute;
-   top: 50%;
-   margin-top: -240px;
-   left: 0;
-   width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .content {
@@ -24,8 +22,7 @@ body {
 	height: 390px;
 	display: block;
 	padding: 50px 20px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 30px auto 30px auto;
 }
 
 .content a {
