@@ -1,102 +1,102 @@
 html {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 28px;
-	text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+  text-align: center;
 }
 
 body {
-	margin: 0px;
-	background-color: #33b5e5;
+  margin: 0px;
+  background-color: #33b5e5;
 }
 
 .container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
-	background: white;
-	box-shadow: 0px 0px 10px #555555;
-	width: 285px;
-	height: 390px;
-	display: block;
-	padding: 50px 20px;
-	margin: 30px auto 30px auto;
+  background: white;
+  box-shadow: 0px 0px 10px #555555;
+  width: 285px;
+  height: 390px;
+  display: block;
+  padding: 50px 20px;
+  margin: 30px auto 30px auto;
 }
 
 .content a {
-	display: inline-block;
-	position: relative;
-	text-decoration: none;
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
-	text-shadow: 0px 0px 0px transparent
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  text-shadow: 0px 0px 0px transparent
 }
 
 .content a:hover {
-	-webkit-transform: translateY(-2px);
-	transform: translateY(-2px);
-	text-shadow: 0px 4px 0px #555555;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  text-shadow: 0px 4px 0px #555555;
 }
 
 .icons {
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-justify-content: space-between;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
-	padding: 10 10 10 10;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10 10 10 10;
 }
 
 .icons a {
-	display: block;
-	width: 32px;
-	height: 32px;
-	padding: 8px;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-size: 32px 32px;
-	-webkit-filter: drop-shadow(0 0 0 transparent);
-	filter: drop-shadow(0 0 0 transparent);
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 32px 32px;
+  -webkit-filter: drop-shadow(0 0 0 transparent);
+  filter: drop-shadow(0 0 0 transparent);
 }
 
 .icons a:hover {
-	-webkit-filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
-	filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
+  -webkit-filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
+  filter: drop-shadow(0 4px 0 rgba(0,0,0,.1));
 }
 
 .avatar {
-	width: 167px;
-	height: 167px;
-	background-image: url(../images/avatar.png);
-	background-color: grey;
-	border: 4px solid grey;
-	border-radius: 50%;
-	margin-left: auto;
-	margin-right: auto;
+  width: 167px;
+  height: 167px;
+  background-image: url(../images/avatar.png);
+  background-color: grey;
+  border: 4px solid grey;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .twitter {
-	background-image: url(../images/twitter.svg)
+  background-image: url(../images/twitter.svg)
 }
 
 .stackoverflow {
-	background-image: url(../images/stackoverflow.svg);
+  background-image: url(../images/stackoverflow.svg);
 }
 
 .linkedin {
-	background-image: url(../images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 
 .github {
-	background-image: url(../images/github.svg);
+  background-image: url(../images/github.svg);
 }
 
 .email {
-	background-image: url(../images/email.svg);
+  background-image: url(../images/email.svg);
 }
