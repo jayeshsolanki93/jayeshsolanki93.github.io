@@ -73,12 +73,7 @@ body {
 .avatar {
   width: 167px;
   height: 167px;
-  background-image: url(../images/avatar.png);
-  background-color: grey;
-  border: 4px solid grey;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .twitter {
