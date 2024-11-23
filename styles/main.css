@@ -76,10 +76,6 @@ body {
   margin: auto;
 }
 
-.twitter {
-  background-image: url(../images/twitter.svg)
-}
-
 .stackoverflow {
   background-image: url(../images/stackoverflow.svg);
 }
